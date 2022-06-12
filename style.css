@@ -1,1 +1,75 @@
+/* ✅ 
+
+#index, #footer {
+    background-color: #f1f1f1;
+    border: 1px solid grey;
+  }
+  
+  #index > p:first-child {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ol li {
+    transition: 0.2s ease all;
+  }
+  
+  ol li:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.2s ease all;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li::before {
+    content: "✅";
+  } */
+
+/* imaging */
+/* div {
+    background: bottom (position)/ 100% (size) url("photo.jpg");
+    is the same as;
+    background-position: bottom;
+    background-size: 100%;
+    background-image: url("photo.jpg");
+
+} */
+/* .parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%); 
+    note: (X, Y)
+    will center the child class to the parent.
+} */
+
+/* .parent {
+    display: flex;
+}
+.child {
+    flex: 1 0 100px;
+
+}
+is the same as
+.child {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100px;
+} */
+
+
+
 
