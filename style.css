@@ -109,7 +109,7 @@ body {
   width: 100vw;
   height: 30vh;
   background: center / 100%
-    url("https://assets.codepen.io/6060109/athlete-girl.png");
+    url("https://assets.codepen.io/6060109/shoes.png");
   background-repeat: no repeat;
   background-size: cover;
 }
@@ -118,8 +118,8 @@ body {
   width: 100%;
   text-align: center;
 }
-.red {
-  color: #cd3a24;
+.color {
+  color: #2F80ED;
   font-weight: 400;
   line-height: 42px;
 }
@@ -170,12 +170,12 @@ h2 {
 }
 .btn {
   margin: 0;
-  background-color: black;
+  background-image:linear-gradient(90deg,rgb(124, 124, 124, 1) 0%, rgb(124, 124, 124, 1) 0%, rgba(43, 40, 40, 1)100%);
   width: 64px;
-  opacity: 80%;
+  /* opacity: 80%; */
   color: white;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .desktop-image {
@@ -185,7 +185,7 @@ h2 {
 @media only screen and (min-width: 768px) {
 
   body {
-    background-image: url(https://assets.codepen.io/6060109/destop-bg.png);
+    background-image: url("https://assets.codepen.io/6060109/waves.png");
     background-size: cover;
 
   }
@@ -198,10 +198,11 @@ h2 {
   .desktop-image {
     display: block;
     width: 50%;
-    background-image:url("https://assets.codepen.io/6060109/athlete-girl.png");
-    /* background-repeat: no repeat; */
+    background-image:url("https://assets.codepen.io/6060109/shoes.png");
+    background-repeat: no repeat;
     background-size: cover;
-    clip-path: polygon(1% 0, 100% 0, 100% 100%, 35% 100%);
+    /* from original project, saved just in case */
+    /* clip-path: polygon(1% 0, 100% 0, 100% 100%, 35% 100%); */
   }
   .head {
     text-align: left;
@@ -210,7 +211,7 @@ h2 {
   .head img {
     width: 19%;
     height: 5%;
-    margin: 0 10px 100px;
+    margin: 5px 10px 100px;
   }
   .text-box {
     text-align: left;
