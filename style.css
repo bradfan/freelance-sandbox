@@ -107,19 +107,22 @@ body {
 
 .panel_container {
   display: flex;
-  width:390px;
 }
 
-.panel_1 {
+.panel {
   position: relative;
   margin: 70px auto;
-  width: 90%;
-  min-width: 300px;
+  width: 390px;
+  /* min-width: 300px; */
   height: 600px;
   border-radius: 5px;
   background-color: #ffffff;
   box-shadow: 0px 40px 40px -20px #3c7b61;
   font-family: "Montserrat";
+}
+
+.fullscreen {
+  display: none;
 }
 
 #xicon {
@@ -138,8 +141,13 @@ body {
   right: 50%;
   transform: translateX(50%);
 }
+.big_icon {
+  width: 100px;
+  height: 100px;
+}
 
 .title {
+  width: 90%;
   color: #2f463d;
   font-weight: 600;
   font-size: 22px;
@@ -149,8 +157,11 @@ body {
   right: 50%;
   transform: translateX(50%);
 }
+.full_title {
+  top: 35%;
+}
 
-.panel_1_text {
+.panel_text {
   color: #828282;
   font-family: "Ubuntu";
   font-weight: 400;
@@ -164,6 +175,9 @@ body {
   right: 50%;
   transform: translateX(50%);
   margin: auto;
+}
+.full_text {
+  top: 45%;
 }
 
 .img_container {
@@ -223,6 +237,12 @@ body {
   cursor: pointer;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25);
 }
+.dormant {
+  bottom: 27%;
+  background-color: #46a67e;
+  background: #bdbdbd;
+  box-shadow: 0px 20px 20px rgba(167, 167, 167, 0.2);
+}
 
 .rectangle_text {
   text-align: center;
@@ -250,6 +270,25 @@ body {
   transition: 0.3s ease all;
 }
 
-.center {
+.green {
   background-color: #67bd99;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .fullscreen {
+    display: block;
+  }
+  .panel {
+    width: 30%;
+  }
+
+  
+
+  
+
+
+ 
+  
 }
