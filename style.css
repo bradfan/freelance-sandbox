@@ -110,6 +110,7 @@ body {
 }
 
 .panel {
+  display: space-around;
   position: relative;
   margin: 70px auto;
   width: 390px;
