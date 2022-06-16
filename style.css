@@ -110,7 +110,8 @@ body {
 }
 
 .panel {
-  display: space-around;
+  display: center;
+  box-sizing: border-box;
   position: relative;
   margin: 70px auto;
   width: 390px;
@@ -121,8 +122,15 @@ body {
   box-shadow: 0px 40px 40px -20px #3c7b61;
   font-family: "Montserrat";
 }
+.left {
+margin-right: 0;
+}
 
-.fullscreen {
+.right {
+  margin-left: 0;
+}
+
+.left, .right {
   display: none;
 }
 
@@ -278,11 +286,19 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .fullscreen {
+  .left, .right {
     display: block;
   }
   .panel {
-    width: 30%;
+    min-width: 30%;
+  }
+  .center {
+    margin-left: 0;
+    margin-right: 0;
+    transform:scale(1.07);
+    z-index:2;
+
+    
   }
 
   
