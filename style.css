@@ -111,7 +111,7 @@ h2 {
 h1 {
   font-size: 64px;
   line-height: 75px;
-  margin: 20px 0;
+  margin: 20px 11px;
 }
 h2 {
   font-size: 48px;
@@ -122,6 +122,7 @@ h3 {
 }
 h4 {
   margin: 10px 0 25px;
+  font-size: 18px;
 }
 p {
   line-height: 24px;
@@ -133,7 +134,7 @@ p {
   font-weight: 700;
 }
 .sec_container {
-  
+  margin: 15px auto;
 }
 .text_center {
   text-align: center;
@@ -149,13 +150,34 @@ p {
   width: 100%;
   background-color: #f2f8ff;
   padding: 40px 0px;
+  margin-bottom: 80px;
 }
 .blue_gradient {
   background: linear-gradient(99.85deg, #bad5ff 0%, #6487bf 100%);
-  
+  margin-bottom: 80px;
+}
+.lead {
+  margin: 40px 0;
+}
+.block {
+  padding: 40px;
+  margin: 20px 10px;
+  border-radius: 30px;
+}
+.block h3 {
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+.blue {
+  background-color: #e4f0ff;
+}
+.mauve {
+  background-color: rgba(114, 122, 239, 0.1);
 }
 
-
+.btn_box {
+  text-align: center;
+}
 
 .btn {
   margin: 25px auto;
@@ -166,8 +188,7 @@ p {
   font-size: 18px;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease all;
-  color: #436BAA
-  
+  color: #436baa;
 }
 
 .btn:hover {
