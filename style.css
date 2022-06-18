@@ -93,6 +93,7 @@ body {
   min-width: 100%;
   min-height: 100vh;
   font-family: "Hellix";
+  background: linear-gradient(7.28deg, #eef5ff 0%, #ffffff 99.69%);
 }
 
 header {
@@ -102,6 +103,9 @@ header {
   height: 75px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
     0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+.no_shadow {
+  box-shadow: none;
 }
 h1,
 h2 {
@@ -124,12 +128,29 @@ h4 {
   margin: 10px 0 25px;
   font-size: 18px;
 }
+h6{
+  font-size:14px;
+  padding: 70px;
+}
 p {
   line-height: 24px;
   font-size: 16px;
   font-weight: 400px;
   color: #111235;
 }
+nav {
+  text-align: center;
+  margin:20px 0px 30px;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #111235;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 48px;
+}
+
 .header_bold {
   font-weight: 700;
 }
@@ -173,6 +194,30 @@ p {
 }
 .mauve {
   background-color: rgba(114, 122, 239, 0.1);
+}
+.input_window {
+  text-align: center;
+  margin-top: 20px;
+}
+.nav_window {
+  background-image: url(https://assets.codepen.io/6060109/icon-send.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 20px;
+  width: 62%;
+  height: 40px;
+}
+.icon_display{
+  display:flex;
+  justify-content:center;
+  margin:20px auto;
+  width:100%;
+  
+}
+.icon_display img{
+  padding:10px 15px;
+  width: 20px;
+  height: 20px;
 }
 
 .btn_box {
