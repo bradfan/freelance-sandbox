@@ -299,8 +299,35 @@ a:hover {
     width: 40%;
   }
   .bg_img {
-    width:60%;
-    margin:auto;
-    }
-  
+    width: 60%;
+    margin: auto;
+  }
+  .grid {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .block {
+    width: 30%;
+    height: 30vh;
+  }
+  .top_four {
+    position: relative;
+
+  }
+  .top_four_box {
+    position: absolute;
+    right:0%;
+    top: 30%;
+    width:40%
+  }
+  .top_four .btn {
+    margin: 0 auto;
+    width: 20%;
+    height:40px;
+    position: absolute;
+    right:3%;
+    top: 1%;
+
+  }
 }
