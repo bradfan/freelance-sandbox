@@ -272,18 +272,35 @@ a:hover {
   }
   header {
     justify-content: space-around;
-    }
+  }
 
   .menu {
     padding: 0 20px;
     width: 50%;
     display: flex;
     justify-content: space-around;
-    
-}
+  }
 
   .menu img {
-      padding-top:10px; 
-      
-   }
+    padding-top: 10px;
+  }
+  .top_one,
+  .blue_gradient {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .top_two {
+    display: flex;
+    flex-direction: row;
+  }
+  .blue_gradient > div {
+    margin-top: 50px;
+    text-align: left;
+    width: 40%;
+  }
+  .bg_img {
+    width:60%;
+    margin:auto;
+    }
+  
 }
