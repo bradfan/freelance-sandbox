@@ -105,7 +105,9 @@ header {
     0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 .no_shadow {
+  border-top: 1px solid;
   box-shadow: none;
+  padding:50px 0 0 0;
 }
 h1,
 h2 {
@@ -128,8 +130,8 @@ h4 {
   margin: 10px 0 25px;
   font-size: 18px;
 }
-h6{
-  font-size:14px;
+h6 {
+  font-size: 14px;
   padding: 70px;
 }
 p {
@@ -140,7 +142,7 @@ p {
 }
 nav {
   text-align: center;
-  margin:20px 0px 30px;
+  margin: 20px 0px 30px;
 }
 a {
   display: block;
@@ -170,7 +172,7 @@ a {
 .container_blue {
   width: 100%;
   background-color: #f2f8ff;
-  padding: 40px 0px;
+  padding: 40px 0px 0px 15px;
   margin-bottom: 80px;
 }
 .blue_gradient {
@@ -179,6 +181,7 @@ a {
 }
 .lead {
   margin: 40px 0;
+  padding-left: 25px;
 }
 .block {
   padding: 40px;
@@ -200,22 +203,26 @@ a {
   margin-top: 20px;
 }
 .nav_window {
+  border: none;
+  border-radius: 10px;
+  color:#111235;
+  font-weight:600;
   background-image: url(https://assets.codepen.io/6060109/icon-send.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 95% 50%;
+  padding: 10px;
   margin-top: 20px;
   width: 62%;
   height: 40px;
 }
-.icon_display{
-  display:flex;
-  justify-content:center;
-  margin:20px auto;
-  width:100%;
-  
+.icon_display {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 100%;
 }
-.icon_display img{
-  padding:10px 15px;
+.icon_display img {
+  padding: 10px 15px;
   width: 20px;
   height: 20px;
 }
