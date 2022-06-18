@@ -96,6 +96,11 @@ body {
   background: linear-gradient(7.28deg, #eef5ff 0%, #ffffff 99.69%);
 }
 
+.contain {
+  max-width: 500px;
+  margin: auto;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -107,7 +112,7 @@ header {
 .no_shadow {
   border-top: 1px solid;
   box-shadow: none;
-  padding:50px 0 0 0;
+  padding: 50px 0 0 0;
 }
 h1,
 h2 {
@@ -152,9 +157,15 @@ a {
   font-size: 16px;
   line-height: 48px;
 }
+a:hover {
+  cursor: pointer;
+}
 
 .header_bold {
   font-weight: 700;
+}
+.menu {
+  display: none;
 }
 .sec_container {
   margin: 15px auto;
@@ -205,8 +216,8 @@ a {
 .nav_window {
   border: none;
   border-radius: 10px;
-  color:#111235;
-  font-weight:600;
+  color: #111235;
+  font-weight: 600;
   background-image: url(https://assets.codepen.io/6060109/icon-send.png);
   background-repeat: no-repeat;
   background-position: 95% 50%;
@@ -253,4 +264,26 @@ a {
 .btn_main {
   background: #4b5092;
   color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .contain {
+    max-width: 90%;
+  }
+  header {
+    justify-content: space-around;
+    }
+
+  .menu {
+    padding: 0 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+  .menu img {
+      padding-top:10px; 
+      
+   }
 }
