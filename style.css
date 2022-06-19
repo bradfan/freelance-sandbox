@@ -282,6 +282,19 @@ a:hover {
     display: flex;
     justify-content: space-around;
   }
+  .text_contain {
+    text-align:left;
+    position: relative;
+  }
+  .text_contain button {
+    position: absolute;
+    left:0%;
+    
+  }
+  .container_blue{
+    padding: 60px 0px 0px 15px;
+
+  }
 
   .menu img {
     padding-top: 10px;
@@ -290,19 +303,28 @@ a:hover {
   .blue_gradient {
     display: flex;
     flex-direction: row-reverse;
+    height:auto;
+    position: relative;
   }
   .top_two {
     display: flex;
     flex-direction: row;
   }
   .blue_gradient > div {
-    margin-top: 50px;
+    position: relative;
     text-align: left;
     width: 40%;
+    padding-right:15px;
+    
+  }
+  .bg_height{
+    position:absolute;
+    top:15%
+
   }
   .bg_img {
     width: 60%;
-    margin: auto;
+    margin:0 auto;
   }
   .grid {
     width: 60%;
