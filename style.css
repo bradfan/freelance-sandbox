@@ -110,7 +110,6 @@ header {
     0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 .no_shadow {
-  border-top: 1px solid;
   box-shadow: none;
   padding: 50px 0 0 0;
 }
@@ -208,6 +207,9 @@ a:hover {
 }
 .mauve {
   background-color: rgba(114, 122, 239, 0.1);
+}
+.top_five {
+  border-top: 1px solid;
 }
 .input_window {
   text-align: center;
@@ -313,21 +315,60 @@ a:hover {
   }
   .top_four {
     position: relative;
-
   }
   .top_four_box {
     position: absolute;
-    right:0%;
+    right: 0%;
     top: 30%;
-    width:40%
+    width: 40%;
   }
   .top_four .btn {
     margin: 0 auto;
     width: 20%;
-    height:40px;
+    height: 40px;
     position: absolute;
-    right:3%;
+    right: 3%;
     top: 1%;
-
   }
+  .top_five {
+    position: relative;
+    height:200px;
+  }
+  .no_shadow {
+    width: 20%;
+    padding-top: 0;
+  }
+  .anchor_box {
+    text-align: left;
+    position: absolute;
+    right: 37%;
+    bottom: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .anchor_box a {
+    margin: 0 auto;
+  }
+  .input_window {
+    width: 30%;
+    position: absolute;
+    right: -10%;
+    bottom: 35%;
+    text-align: left;
+    cursor: pointer;
+  }
+  .icon_display {
+    display: none;
+  }
+  .copyright {
+    position: absolute;
+    bottom:15%;
+    left:2%
+  }
+
+  h6 {
+    padding:0;
+  } 
 }
