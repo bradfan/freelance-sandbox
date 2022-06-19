@@ -101,7 +101,7 @@ body {
   margin: auto;
 }
 
-header {
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,8 +240,6 @@ a:hover {
   height: 20px;
 }
 
-
-
 .btn {
   margin: 25px auto;
   width: 62%;
@@ -271,7 +269,7 @@ a:hover {
     max-width: 1100px;
     margin: auto;
   }
-  header {
+  .header {
     justify-content: space-between;
   }
 
@@ -284,10 +282,12 @@ a:hover {
   .text-contain {
     text-align: left;
     position: relative;
+    margin-top: 40px;
   }
-  .text-contain button {
+  .text-contain .btn {
     position: absolute;
     left: 0%;
+    width: 200px;
   }
   .container-blue {
     padding: 60px 0px 0px 15px;
@@ -296,14 +296,14 @@ a:hover {
   .menu img {
     padding-top: 10px;
   }
-  .top-one,
+  .sec-one,
   .blue-gradient {
     display: flex;
     flex-direction: row-reverse;
     height: auto;
     position: relative;
   }
-  .top-two {
+  .flex-row {
     display: flex;
     flex-direction: row;
   }
@@ -330,16 +330,16 @@ a:hover {
     width: 30%;
     height: 30vh;
   }
-  .top-four {
+  .sec-four {
     position: relative;
   }
-  .top-four-box {
+  .sec-four-box {
     position: absolute;
     right: 0%;
     top: 30%;
     width: 40%;
   }
-  .top-four .btn {
+  .sec-four .btn {
     margin: 0 auto;
     width: 20%;
     height: 40px;
@@ -384,7 +384,6 @@ a:hover {
   .copyright {
     position: absolute;
     bottom: 15%;
-    
   }
 
   h6 {
