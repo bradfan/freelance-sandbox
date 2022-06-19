@@ -270,30 +270,29 @@ a:hover {
 
 @media only screen and (min-width: 992px) {
   .contain {
-    max-width: 90%;
+    max-width: 1100px;
+    margin: auto;
   }
   header {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .menu {
-    padding: 0 20px;
+    padding: 0 px;
     width: 50%;
     display: flex;
     justify-content: space-around;
   }
   .text_contain {
-    text-align:left;
+    text-align: left;
     position: relative;
   }
   .text_contain button {
     position: absolute;
-    left:0%;
-    
+    left: 0%;
   }
-  .container_blue{
+  .container_blue {
     padding: 60px 0px 0px 15px;
-
   }
 
   .menu img {
@@ -303,7 +302,7 @@ a:hover {
   .blue_gradient {
     display: flex;
     flex-direction: row-reverse;
-    height:auto;
+    height: auto;
     position: relative;
   }
   .top_two {
@@ -314,17 +313,15 @@ a:hover {
     position: relative;
     text-align: left;
     width: 40%;
-    padding-right:15px;
-    
+    padding-right: 15px;
   }
-  .bg_height{
-    position:absolute;
-    top:15%
-
+  .bg_height {
+    position: absolute;
+    top: 15%;
   }
   .bg_img {
     width: 60%;
-    margin:0 auto;
+    margin: 0 auto;
   }
   .grid {
     width: 60%;
@@ -354,7 +351,7 @@ a:hover {
   }
   .top_five {
     position: relative;
-    height:200px;
+    height: 200px;
   }
   .no_shadow {
     width: 20%;
@@ -379,6 +376,8 @@ a:hover {
     right: -10%;
     bottom: 35%;
     text-align: left;
+  }
+  .nav_window {
     cursor: pointer;
   }
   .icon_display {
@@ -386,11 +385,11 @@ a:hover {
   }
   .copyright {
     position: absolute;
-    bottom:15%;
-    left:2%
+    bottom: 15%;
+    
   }
 
   h6 {
-    padding:0;
-  } 
+    padding: 0;
+  }
 }
