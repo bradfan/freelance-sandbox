@@ -168,6 +168,7 @@ a:hover {
 }
 .sec-container {
   margin: 15px auto;
+  
 }
 .text-center {
   text-align: center;
@@ -353,27 +354,29 @@ a:hover {
   }
   .no-shadow {
     width: 20%;
-    padding-top: 0;
+    padding:0;
+   }
+
+  .bottom-container {
+    display: flex;
+    justify-content: space-around;
   }
+  .bottom-container h3 {
+    margin-top:-30px;
+    }
+
   .anchor-box {
     text-align: left;
-    position: absolute;
-    right: 37%;
-    bottom: 5%;
-    width: 30%;
+    width: 30%; 
     display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-  }
-  .anchor-box a {
+    justify-content: space-around;
     margin: 0 auto;
   }
+ 
   .input-window {
     width: 30%;
-    position: absolute;
-    right: -10%;
-    bottom: 35%;
     text-align: left;
+    
   }
   .nav-window {
     cursor: pointer;
@@ -382,8 +385,9 @@ a:hover {
     display: none;
   }
   .copyright {
-    position: absolute;
-    bottom: 15%;
+    margin-top:15px;
+    text-align: left;
+    
   }
 
   h6 {
