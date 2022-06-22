@@ -486,7 +486,7 @@ a:hover {
 }
 .sec-container img {
   width: 100%;
-  height: 414px;
+ 
 }
 .container-blue {
   width: 100%;
@@ -637,7 +637,7 @@ a:hover {
   }
   .block {
     width: 30%;
-    height: 30vh;
+    
   }
   .sec-four {
     position: relative;
@@ -656,10 +656,7 @@ a:hover {
     right: 3%;
     top: 1%;
   }
-  .top-five {
-    position: relative;
-    height: 200px;
-  }
+  
   .no-shadow {
     width: 20%;
     padding:0;
